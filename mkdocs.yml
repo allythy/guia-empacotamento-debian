@@ -1,0 +1,13 @@
+site_name: Guia de Empacotamento para o Debian
+theme: readthedocs
+
+repo_url: https://github.com/allythy/guia-empacotamento-debian
+
+nav:
+    - 'index.md'
+    - Primeiros passos:
+        - Criando a jaula: primeiros-passos/criando-jaula.md
+    - Outras formas de contribuir:
+        - 'contribuir/como-colaborar.md'
+extra_css:
+    - css/extra.css
