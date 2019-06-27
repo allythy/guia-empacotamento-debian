@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Como Colaborar com o Projeto Debian - Guia de Empacotamento para o Debian</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Como Colaborar com o Projeto Debian";
+    var mkdocs_page_input_path = "contribuir/como-colaborar.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Guia de Empacotamento para o Debian</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Conheça o Projeto Debian</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Primeiros passos</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../primeiros-passos/criando-jaula/">Criando a jaula</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Outras formas de contribuir</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <a class="current" href="./">Como Colaborar com o Projeto Debian</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#como-colaborar-com-o-projeto-debian">Como Colaborar com o Projeto Debian</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#ajudar-outros-usuarios-em">Ajudar outros usuários em:</a></li>
+        
+            <li><a class="toctree-l4" href="#traduzir">Traduzir</a></li>
+        
+            <li><a class="toctree-l4" href="#divulgar-o-debian">Divulgar o Debian</a></li>
+        
+            <li><a class="toctree-l4" href="#escrever-tutoriais">Escrever tutoriais</a></li>
+        
+            <li><a class="toctree-l4" href="#enviar-testes-patches-bugs-e-relatorios">Enviar testes, patches bugs e relatórios</a></li>
+        
+            <li><a class="toctree-l4" href="#desenvolver-atividades">Desenvolver atividades</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Guia de Empacotamento para o Debian</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Outras formas de contribuir &raquo;</li>
+        
+      
+    
+    <li>Como Colaborar com o Projeto Debian</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/allythy/guia-empacotamento-debian/edit/master/docs/contribuir/como-colaborar.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="como-colaborar-com-o-projeto-debian">Como Colaborar com o Projeto Debian</h1>
+<p>Você quer começar a colaborar com o Debian? Veja abaixo onde seu perfil
+mais se encaixa. Se você é um(a) colaborador(a) e seu método ou grupo de
+colaboração não esteja listado nessa página, por favor compartilhe conosco!</p>
+<ul>
+<li>Usar, testar, e enviar bugs para o <a
+href="http://bugs.debian.org/" target="_blank">Sistema de Rastreamento de
+Bugs(BTS - Bug Tracking System</a></li>
+</ul>
+<h2 id="ajudar-outros-usuarios-em">Ajudar outros usuários em:</h2>
+<ul>
+<li>
+<p><a href="http://debianbrasil.org.br/listas" target="_blank">
+Listas de discussão oficiais;</a></p>
+</li>
+<li>
+<p><a href="http://debianbrasil.org.br/irc" target="_blank">
+Canais de IRC</a></p>
+</li>
+<li>
+<p><a href="http://www.forumdebian.com.br" target="_blank">
+Fórum;</a></p>
+</li>
+<li>
+<p><a href="https://t.me/debianbrasil" target="_blank">
+Grupo no Telegram.</a></p>
+</li>
+</ul>
+<h2 id="traduzir">Traduzir</h2>
+<ul>
+<li><a href="https://wiki.debian.org/Brasil/Traduzir/DDTP" target="_blank">
+Descrições de pacotes;</a></li>
+<li><a href="https://wiki.debian.org/Brasil/Traduzir/ManPages" target="_blank">
+Manpages;</a></li>
+<li><a href="https://wiki.debian.org/Brasil/Traduzir/DebConf">
+Modelos debconf</a></li>
+<li><a href="https://wiki.debian.org/Brasil/Traduzir/WebWML" target="_blank">
+Páginas web.</a></li>
+<li><a href="https://wiki.debian.org/Brasil/Traduzir/DI" target="_blank">
+Instalador do Debian</a>
+Mais informações acesse <a href="https://wiki.debian.org/Brasil/Traduzir">
+Wiki do Debian</a></li>
+</ul>
+<h2 id="divulgar-o-debian">Divulgar o Debian</h2>
+<ul>
+<li>Sites;</li>
+<li>Escolas</li>
+<li>Universidades/Faculdades;</li>
+<li>Eventos como congressos, fóruns, encontros, etc.</li>
+</ul>
+<h2 id="escrever-tutoriais">Escrever tutoriais</h2>
+<p>Escrever tutoriais básicos ou avançados, para usuários ou
+desenvolvedores. A wiki do Debian é um bom lugar para iniciar.</p>
+<h2 id="enviar-testes-patches-bugs-e-relatorios">Enviar testes, patches bugs e relatórios</h2>
+<ul>
+<li>Usar, testar, e enviar bugs para o
+<a href="http://bugs.debian.org/" target="_blank">Sistema de Rastreamento
+de Bugs(BTS - Bug Tracking System</a></li>
+<li>Enviar patches com correções para bugs</li>
+<li>Fazer testes de instalação e <a href="https://d-i.debian.org/manual/en.i386/ch05s04.html#submit-bug" target="_blank"> enviar relatórios.</a></li>
+</ul>
+<h2 id="desenvolver-atividades">Desenvolver atividades</h2>
+<ul>
+<li>Desenvolver atividades de <a href="https://wiki.debian.org/Teams/Publicity">
+publicidade e imprensa</a>,
+e <a href="https://micronews.debian.org/" target="_blank">escrever notícias</a>.</li>
+<li>Organizar <a href="http://debianbrasil.org.br/eventos" target="_blank">
+eventos e encontros</a> focados em Debian na sua cidade.</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../../primeiros-passos/criando-jaula/" class="btn btn-neutral" title="Criando a jaula"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/allythy/guia-empacotamento-debian/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../../primeiros-passos/criando-jaula/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>

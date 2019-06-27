@@ -1,0 +1,19 @@
+.wy-menu-vertical span {
+    color: #b4143f;
+    line-height: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 85%;
+}
+
+.wy-menu-vertical .subnav a{
+    padding: .4045em 1.618em;
+}
+
+.wy-side-nav-search{
+    background-color: #c7003699
+
+}
+
+/* 931F38 */
+/* #c7003699 */
